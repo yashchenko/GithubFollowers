@@ -19,6 +19,7 @@
 		FA460B5D2BFA1B47005539C4 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA460B5C2BFA1B47005539C4 /* NotesViewController.swift */; };
 		FA5740F12BFA6E0E001ED013 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5740F02BFA6E0E001ED013 /* MainViewController.swift */; };
 		FA5740F42BFA735D001ED013 /* ErrorEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5740F32BFA735D001ED013 /* ErrorEnum.swift */; };
+		FA5F34B92C186D3100F94D68 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5F34B82C186D3100F94D68 /* UIHelper.swift */; };
 		FA6B634B2BD947570010B6D0 /* GithubFollowersButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6B634A2BD947570010B6D0 /* GithubFollowersButton.swift */; };
 		FA6DDE882BDD796300B31817 /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6DDE872BDD796300B31817 /* Extension+UIView.swift */; };
 		FA73195B2BF15D9000456348 /* Extension+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA73195A2BF15D9000456348 /* Extension+UIViewController.swift */; };
@@ -53,6 +54,7 @@
 		FA460B5C2BFA1B47005539C4 /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
 		FA5740F02BFA6E0E001ED013 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		FA5740F32BFA735D001ED013 /* ErrorEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorEnum.swift; sourceTree = "<group>"; };
+		FA5F34B82C186D3100F94D68 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 		FA6B634A2BD947570010B6D0 /* GithubFollowersButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubFollowersButton.swift; sourceTree = "<group>"; };
 		FA6DDE872BDD796300B31817 /* Extension+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIView.swift"; sourceTree = "<group>"; };
 		FA73195A2BF15D9000456348 /* Extension+UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIViewController.swift"; sourceTree = "<group>"; };
@@ -156,6 +158,7 @@
 			children = (
 				FA3CECE82BD530AE00A749B0 /* SearchVC.swift */,
 				FA030A342BDDC3E800128E58 /* FollowerListVC.swift */,
+				FA5F34B82C186D3100F94D68 /* UIHelper.swift */,
 				FA2376FA2BD6B18300A9503F /* FavouritesListVC.swift */,
 			);
 			path = Screens;
@@ -312,6 +315,7 @@
 				FAA6BB9D2BDAADB100C72892 /* GithubFollowersTextField.swift in Sources */,
 				FAFE437B2BF265D300BAAEB4 /* ClassWithDelegate.swift in Sources */,
 				FA848CE02C0505E500F90C7B /* GFAvatarImageView.swift in Sources */,
+				FA5F34B92C186D3100F94D68 /* UIHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

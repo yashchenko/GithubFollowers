@@ -15,6 +15,7 @@ class FollowerCell: UICollectionViewCell {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
+        configure()
     }
     
     required init?(coder: NSCoder) {
@@ -23,6 +24,7 @@ class FollowerCell: UICollectionViewCell {
     
     func set(follower: Follower) {
         usernamaLabel.text = follower.login
+        avatarImageView.downloadImage(urlString: follower.avatarUrl)
     }
     
     func configure() {
